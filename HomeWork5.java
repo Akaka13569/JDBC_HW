@@ -1,7 +1,8 @@
-//2.在res/emp.txt文字檔中設定五筆employee的資料，將之批次新增至資料庫中。
-//註：一筆資料一列，每個資料欄的資料以逗號(,)隔開
+//3.使用課堂的employee表格加以改寫，新增一個欄位可以存放員工的照片。
+//利用BlobDemo.java範例將所有圖檔以批次方式新增至資料庫中。
+//註：所有照片置於res資料夾中，為了方便撰寫程式，建議所有照片的副檔名要一致，圖檔名稱以員工編號命名
 
-//給自己的功課 把批次新增寫成迴圈 需用到DatabaseMetabata介面內的方法
+
 package com.charlielin;
 
 import java.io.BufferedReader;
@@ -19,7 +20,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeWork4 {
+public class HomeWork5 {
 
 	public static void main(String[] args) throws IOException {
 //		File infile = new File("D:\\JDBC\\workspace\\Jdbc_HW\\res","emp.txt");
